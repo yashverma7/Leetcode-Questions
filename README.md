@@ -1,3 +1,3 @@
 # Leetcode-Questions
 
-# Array - 7
+Array - 7
