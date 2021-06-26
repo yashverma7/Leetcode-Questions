@@ -1,5 +1,5 @@
 # ARRAY
-## Running Sum of 1d Array
+## Running Sum of 1d Array 1480
 
 Given an array nums. We define a running sum of an array as runningSum[i] = sum(nums[0]…nums[i]).
 
@@ -31,7 +31,7 @@ Constraints:
 
 
 
-## Shuffle the Array
+## Shuffle the Array 1470
 
 Given the array nums consisting of 2n elements in the form [x1,x2,...,xn,y1,y2,...,yn].
 
@@ -62,7 +62,7 @@ nums.length == 2n
 
 
 
-## Richest Customer Wealth
+## Richest Customer Wealth 1672
 
 You are given an m x n integer grid accounts where accounts[i][j] is the amount of money the i​​​​​​​​​​​th​​​​ customer has in the j​​​​​​​​​​​th​​​​ bank. Return the wealth that the richest customer has.
 
@@ -104,7 +104,7 @@ n == accounts[i].length
 
 
 
-## Kids With the Greatest Number of Candies
+## Kids With the Greatest Number of Candies 1431
 Given the array candies and the integer extraCandies, where candies[i] represents the number of candies that the ith kid has.
 
 For each kid check if there is a way to distribute extraCandies among the kids such that he or she can have the greatest number of candies among them. Notice that multiple kids can have the greatest number of candies.
@@ -141,7 +141,7 @@ Constraints:
 1 <= extraCandies <= 50
 
 
-## How Many Numbers Are Smaller Than the Current Number
+## How Many Numbers Are Smaller Than the Current Number 1365
 
 Given the array nums, for each nums[i] find out how many numbers in the array are smaller than it. That is, for each nums[i] you have to count the number of valid j's such that j != i and nums[j] < nums[i].
 
@@ -177,7 +177,7 @@ Constraints:
 0 <= nums[i] <= 100
 
 
-## Decompress Run-Length Encoded List
+## Decompress Run-Length Encoded List 1313
 
 We are given a list nums of integers representing a list compressed with run-length encoding.
 
@@ -208,7 +208,7 @@ nums.length % 2 == 0
 1 <= nums[i] <= 100
 
 
-## XOR Operation in an Array
+## XOR Operation in an Array 1486
 
 Given an integer n and an integer start.
 
@@ -248,7 +248,7 @@ Constraints:
 0 <= start <= 1000
 n == nums.length
 
-## Create Target Array in the Given Order
+## Create Target Array in the Given Order 1389
 
 Given two arrays of integers nums and index. Your task is to create target array under the following rules:
 
@@ -299,7 +299,7 @@ nums.length == index.length
 0 <= index[i] <= i
 
 
-## Decode XORed Array
+## Decode XORed Array 1720
 
 There is a hidden integer array arr that consists of n non-negative integers.
 
