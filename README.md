@@ -1,5 +1,7 @@
 # Leetcode-Questions
 
-Array - 8 
+Array - 9
 
 Binary Search - 
+
+Linked List - 
