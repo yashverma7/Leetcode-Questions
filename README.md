@@ -4,4 +4,16 @@ Array - 9
 
 Binary Search - 
 
-Linked List - 
+Linked List -
+
+Stack - 
+
+Heap - 
+
+Queue - 
+
+Sorting - 
+
+Searching - 
+
+Trees -
