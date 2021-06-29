@@ -4,7 +4,7 @@ Array - 9
 
 Binary Search - 
 
-Linked List -
+Linked List - 
 
 Stack - 
 
@@ -17,3 +17,4 @@ Sorting -
 Searching - 
 
 Trees -
+
