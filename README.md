@@ -8,7 +8,7 @@ Linked List -
 
 Stack - 
 
-Heap - 
+Heap -  
 
 Queue - 
 
