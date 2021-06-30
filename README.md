@@ -6,7 +6,7 @@ Binary Search -
 
 Linked List - 
 
-Stack - 
+Stack -   
 
 Heap -  
 
