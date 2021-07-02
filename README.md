@@ -4,7 +4,7 @@ Array - 9
 
 Binary Search - 
 
-Linked List - 
+Linked List - 1
 
 Stack -   
 
