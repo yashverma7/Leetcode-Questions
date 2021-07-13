@@ -17,3 +17,7 @@ Sorting -
 Searching - 
 
 Trees - 
+
+String - 1
+
+Hash Table - 
