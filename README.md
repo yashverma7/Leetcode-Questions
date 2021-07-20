@@ -18,7 +18,7 @@ Searching -
 
 Trees - 
 
-String - 1
+String - 2
 
 Hash Table - 
 
