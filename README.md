@@ -20,7 +20,7 @@ Trees -
 
 String - 2
 
-Hash Table - 
+Hash Table - 1
 
 Math - 
 
