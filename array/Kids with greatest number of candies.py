@@ -37,10 +37,13 @@ Constraints:
 1 <= extraCandies <= 50
 '''
 
-
+# the problem here is to find if the extra candies numerical when added to every element individually makes it the highest element in the list or not
+# max(candies) calculates the highest number in the list and checks by adding present number to extra candies and returns in boolean in true or false
 class Solution:
     def kidsWithCandies(self, candies: List[int], extraCandies: int) -> List[bool]:
         has_greatest = []
         for number_of_candies in candies:
             has_greatest.append(number_of_candies + extraCandies >= max(candies))
         return has_greatest
+# here instead of including max candies inside the for loop we can simply assign a variable outside the loop so it does not have to compute
+# the max(list) everytime the loop runs
