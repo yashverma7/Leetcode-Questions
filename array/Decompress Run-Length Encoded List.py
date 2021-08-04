@@ -29,7 +29,11 @@ nums.length % 2 == 0
 1 <= nums[i] <= 100
 '''
 
-
+# the problem here wants us to create a new list with freq and values given in the fashion as freq followed by its corresponding value
+# so we simply create a new list to store all the new elementts generated after we are done running the for loop in the manner that 
+# it only runs for even place elements and the odd place corresponding elements are multiplied according to the freq by using double [[]] 
+# or else the values would be multipied and not the times we want element to be produced 
+# finally the list with all the elements is returned with required freq and values
 class Solution:
     def decompressRLElist(self, nums: List[int]) -> List[int]:
         decomp=[]
