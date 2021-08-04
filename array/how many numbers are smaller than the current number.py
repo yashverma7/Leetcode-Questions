@@ -34,7 +34,10 @@ Constraints:
 2 <= nums.length <= 500
 0 <= nums[i] <= 100
 '''
-
+# in this problem we have to check how many numbers in the list are smaller than the current number we are traversing
+# we dont need to check every element for this 
+# this can be done v cleverly by sorting the list and then by using index method we return the index of the element which was being checked in the 
+# original list
 class Solution:
     def smallerNumbersThanCurrent(self, nums: List[int]) -> List[int]:
         count=[]
