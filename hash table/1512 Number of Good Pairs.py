@@ -29,7 +29,10 @@ Constraints:
 1 <= nums.length <= 100
 1 <= nums[i] <= 100
 '''
-
+# in this problem we use have to return the number of good pairs i.e. value of two elements in the array is same and the element appearing first 
+# has index lower than the one appearing later , but it would be quite obvious 
+# combinations method, takes two arguments(list,no. of elements to be put together)
+# used to make pairs in this casse
 import itertools
 class Solution:
     def numIdenticalPairs(self, nums: List[int]) -> int:
@@ -38,3 +41,6 @@ class Solution:
             if a==b:
                 i=i+1
         return i
+       
+# we only create a variable which is updated when any two elements are equal in the same list, therefore in the end of the for loop 
+# this variable returns the number of good pairs
