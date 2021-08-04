@@ -38,7 +38,10 @@ n == accounts[i].length
 1 <= m, n <= 50
 1 <= accounts[i][j] <= 100
 '''
-
+# the problem here is to return the highest sum from within the list of lists 
+# a new list is created which stores the sum of each list element from given list, which can easiy be done by using sum method, a default method provided in python
+# it stores sum of each individual as a single element in the new list,
+# therefore for finiding the highest sum we just use the max method in python, which returns the highest element from the list and we have our desired answer
 class Solution:
     def maximumWealth(self, accounts: List[List[int]]) -> int:
         indi=[sum(p) for p in accounts]
