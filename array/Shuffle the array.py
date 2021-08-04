@@ -27,7 +27,13 @@ Constraints:
 nums.length == 2n
 1 <= nums[i] <= 10^3
 '''
-
+# in this problem , we need to add elements from second half of the list into a new list alternatively
+# create 3 different lists , first two for handling the elements for first and second half and third for the final merger
+# num1=nums[:length] copies the content of the first half of the list nums to num1 since lenght is equal to the half the length of nums
+# arr1=nums[:x] everything before xth element is assigned to arr1 from nums 
+# similarly for arr2=nums[x:] everything after xth element is assigned to arr2 from nums i
+# so now we have two separate lists and now will run a for loop which adds elements one by one from these two lists into the third list and finally returns a 
+# list with mixed elements
 class Solution:
     def shuffle(self, nums: List[int], n: int) -> List[int]:
         num1=[]
