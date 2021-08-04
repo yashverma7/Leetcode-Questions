@@ -47,6 +47,6 @@ class Solution:
             num3.append(num2[i])
             i+=1
         return num3    
-    
+# instead of creating different lists we can run the second for loop from second half of the original list and save space    
         
         
