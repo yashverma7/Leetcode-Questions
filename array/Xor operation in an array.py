@@ -38,7 +38,11 @@ Constraints:
 0 <= start <= 1000
 n == nums.length
 '''
-
+# in this problem first the list is generated according to the input by taking the start point and the number of elements 
+# that will follow the pattern which in this case is a gap of 2 
+# we have to apply bitwise XOR on all elements , it can be done through reduce and lambda methods,
+# x,y are two demo consecutive elements and as we go through the list bitwise XOR is applied on every element through ^ operator 
+# assigned by python itself and finally we can return the result
 class Solution:
     def xorOperation(self, n: int, start: int) -> int:
         nums=[]*1000
@@ -46,4 +50,6 @@ class Solution:
             nums.append(start + 2*i)
         res=reduce(lambda x,y: x^y , nums)
         return res
-        
+# The reduce(fun,seq) function is used to apply a particular function passed in 
+# its argument to all of the list elements mentioned in the sequence passed along.This function is defined in “functools” module.    
+# this can also be used when solving the running sum problem 
