@@ -50,7 +50,7 @@ nums.length == index.length
 '''
 # the problem here is to insert the element at the given index and move the rest of elements to their right according to that
 # by using the insert method in python, elements corresponding to the loop are inserted and other elements are shifted
-# finally we return the final list
+# finally we return the updated list
 class Solution:
     def createTargetArray(self, nums: List[int], index: List[int]) -> List[int]:
         target=[]
