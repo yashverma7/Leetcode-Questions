@@ -28,7 +28,9 @@ Constraints:
 encoded.length == n - 1
 0 <= encoded[i] <= 105
 0 <= first <= 105'''
-
+# this problem is related to decode the XORed list and changing to the state where it wasn't XORed
+# after creating a new list , use the given first variable and apply bitwise XOR on each element 
+# similar idea can be thought for encoding the list by using the reduce method
 class Solution:
     def decode(self, encoded: List[int], first: int) -> List[int]:
         arr=[]
