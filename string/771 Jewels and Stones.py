@@ -21,7 +21,10 @@ Constraints:
 1 <= jewels.length, stones.length <= 50
 jewels and stones consist of only English letters.
 All the characters of jewels are unique.'''
-
+# the problem here demands to check if the elements from first string are present in the second string 
+# but strings' characters can't be compared character by character
+# so we make two lists corresponding to these strings and run two loops simultaneously to check if the elements of the lists are same
+# variable i is incremented at the event when two elements match
 class Solution:
     def numJewelsInStones(self, jewels: str, stones: str) -> int:
         arrjewels=list(jewels)
