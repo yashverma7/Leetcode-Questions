@@ -38,3 +38,7 @@ class Solution:
             a.append(head)
             head = head.next
         return a[len(a)//2]
+       
+# the problem here deals with retruning the list element from the middle node,
+# can be easily done by traversing through the linked list by using head and next and ultimately calculating the middle of the list
+# after inserting the elements in a new list and hence returning the middle element
