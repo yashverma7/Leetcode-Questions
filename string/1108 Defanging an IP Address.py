@@ -26,3 +26,7 @@ class Solution:
         jo=[]
         jo=address.replace(".","[.]")
         return jo
+     
+# the problem here is simple we have to replace "." with "[.]" 
+# first a new list is created and elements from original list are modified acc to the problem statement 
+# can be easily done by using replace method and finally return the new list
