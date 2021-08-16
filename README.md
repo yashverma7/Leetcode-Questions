@@ -1,6 +1,6 @@
 # Leetcode-Questions
 
-Array - 9
+Array - 10
 
 Binary Search - 
 
@@ -12,7 +12,7 @@ Heap -
 
 Queue - 
 
-Sorting - 
+Sorting - 1
 
 Searching - 
 
