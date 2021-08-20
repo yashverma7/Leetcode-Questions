@@ -14,7 +14,7 @@ Queue -
 
 Sorting - 1
 
-Searching - 
+Searching - 1
 
 Trees - 
 
