@@ -12,7 +12,7 @@ Heap -
 
 Queue - 
 
-Sorting - 1
+Sorting - 2
 
 Searching - 1
 
